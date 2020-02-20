@@ -16,7 +16,18 @@
 - Python 3.6
 - Pytorch
 - Tensorflow 1.15
-- 
+- numpy
+- pandas
+- matplotlib
+- scipy
+
+---
+
+## Description
+- It inclues lstm, ann, svr and grnn models tested in this paper.
+- It also has all the functions to generate all most of the figures in the paper.
+- It has the functions about PCA analysis
+
 
 
 
