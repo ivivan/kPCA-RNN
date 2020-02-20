@@ -40,7 +40,7 @@ sns.boxplot(y=df["Temp_degC"],ax=ax1).set(
 
 sns.boxplot(y=df["EC_uScm"],ax=ax2).set(
     xlabel='EC',
-    ylabel='uS $cm^{-1}$'
+    ylabel='uS$\cdot$$cm^{-1}$'
 )
 
 sns.boxplot(y=df["pH"],ax=ax3).set(
@@ -50,7 +50,7 @@ sns.boxplot(y=df["pH"],ax=ax3).set(
 
 sns.boxplot(y=df["DO_mg"],ax=ax4).set(
     xlabel='DO',
-    ylabel='mg $L^{-1}$'
+    ylabel='mg$\cdot$$L^{-1}$'
 )
 
 sns.boxplot(y=df["Turbidity_NTU"],ax=ax5).set(
@@ -60,7 +60,7 @@ sns.boxplot(y=df["Turbidity_NTU"],ax=ax5).set(
 
 sns.boxplot(y=df["Chloraphylla_ugL"],ax=ax6).set(
     xlabel='Chl-a',
-    ylabel='$\mu$g $L^{-1}$'
+    ylabel='$\mu$g$\cdot$$L^{-1}$'
 )
 
 plt.tight_layout()
